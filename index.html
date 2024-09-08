@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="/styles/variable.css">
+</head>
+<body>
+<!-- 
+  <div class="container">
+    <section>
+      <img src="/assets/images/avatar-jessica.jpeg" alt="jessica Profile picture">
+      <span>Jessica Randall</span>
+      <address>London, United Kingdom</address>
+    </section>
+    <div>
+      <p>"Front-end developer and avid reader."</p>
+      <ul>
+        <li>GitHub</li>
+        <li> Frontend Mentor</li>
+        <li>LinkedIn</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+      </ul>
+    </div> -->
+  <!-- </div> -->
+      <div class="login-container">
+          <div class="login-form">
+              <h2>Login</h2>
+              <form id="loginForm">
+                  <div class="input-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="input-group">
+                      <label for="password">Password</label>
+                      <input type="password" id="password" placeholder="Enter your password" required>
+                  </div>
+                  <div id="captcha-container" class="input-group hidden">
+                      <label for="captcha">Captcha</label>
+                      <input type="text" id="captcha" placeholder="Enter CAPTCHA">
+                      <img id="captcha-image" src="generate_captcha.php" alt="CAPTCHA">
+                  </div>
+                  <button type="submit" class="btn">Login</button>
+              </form>
+              <div class="forgot-password">
+                  <a href="#">Forgot your password?</a>
+              </div>
+          </div>
+      </div>
+      <script src="script.js"></script>
+
+</body>
+</html>
